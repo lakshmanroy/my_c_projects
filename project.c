@@ -7,7 +7,7 @@ int main()
 
    int number,guess,nguesses;
    srand(time(0));
-   number=rand()%100+1;
+   number=rand()%99+1;
 do
 {
 	//For random number generator in C
@@ -30,6 +30,5 @@ do
 }
 	while(guess!=number);
 	return 0;
-
 }
 
